@@ -96,7 +96,7 @@ var data = [
 var trendsText = {'Received': 'Emails Received', 'Sent': 'Emails Sent'};
 
 // Setting graph dimensions
-var margin = { top: 30, right: 80, bottom: 60, left: 80 },  
+var margin = { top: 30, right: 330, bottom: 60, left: 80 },  
     svg = d3.select('svg'),
     width = +svg.attr('width') - margin.left - margin.right,
     height = +svg.attr('height') - margin.top - margin.bottom;
