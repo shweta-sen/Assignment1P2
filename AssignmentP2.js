@@ -98,8 +98,8 @@ var trendsText = {'Received': 'Emails Received', 'Sent': 'Emails Sent'};
 // Setting graph dimensions
 var margin = { top: 30, right: 330, bottom: 60, left: 80 },  
     svg = d3.select('svg'),
-    width = +svg.attr('width') - margin.left - margin.right,
-    height = +svg.attr('height') - margin.top - margin.bottom;
+    width = 2000 - margin.left - margin.right,
+    height = 550 - margin.top - margin.bottom;
 var g = svg.append("g")
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
